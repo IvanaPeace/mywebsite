@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piece By Peace</title>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <style>
+    /* Soft pastel color scheme */
+    body {
+      background-color: #fce4ec; /* Light pink background */
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    /* Navbar styling */
+    .navbar {
+      background-color: #e0f7fa; /* Light blue */
+    }
+    
+    .navbar-brand {
+      font-family: 'Pacifico', cursive; /* Jazzy font */
+      font-size: 1.8rem;
+      color: #ff6f61 !important; /* Soft coral */
+    }
+
+    .navbar-nav .nav-link {
+      color: #5c6bc0 !important; /* Pastel purple */
+    }
+
+    /* Jumbotron */
+    .jumbotron {
+      background-color: #fff9c4; /* Soft yellow */
+      color: #5c6bc0; /* Pastel purple */
+      margin-top: 56px;
+    }
+
+    .jumbotron h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3rem;
+    }
+
+    .jumbotron p {
+      font-size: 1.2rem;
+    }
+
+    /* About Section */
+    #about h2 {
+      color: #5c6bc0; /* Pastel purple */
+    }
+
+    #about p {
+      color: #4a4a4a;
+    }
+
+    /* Card image adjustments */
+    .card img, #about img {
+      max-width: 100%; /* Ensure images don't exceed container width */
+      height: auto; /* Maintain aspect ratio */
+      object-fit: cover; /* Scale images to fit within the cards */
+      max-height: 300px; /* Restrict height of images */
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #e1bee7; /* Light purple */
+      color: #ffffff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* Button hover effect */
+    .nav-link:hover {
+      color: #ff6f61 !important; /* Soft coral on hover */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Piece By Peace</a>
+    <!-- Mobile menu button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="products.html">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron text-center">
+  <h1>Some of my products</h1>
+  <p class="lead">Explore some of my crafts that have been made with love</p>
+</div>
+
+<!-- About Section -->
+<section id="about" class="container mt-5">
+  <div class="row align-items-center">
+    <div class="col-lg-6 mb-4">
+      <h2>About Me</h2>
+      <p class="lead">
+        I have a passion for creating beautiful, handmade jewellery and experimenting with resin and clay. Over time, I’ve crafted unique pieces that I’ve proudly sold on platforms like Etsy and Vinted.
+      </p>
+      <p>
+        For now, it’s all about having fun and exploring my creativity, but I’m excited to see where this journey takes me! Feel free to check out my Vinted page: 
+        <span style="color: #ff6f61; font-weight: bold;">magzie1972</span>.
+      </p>
+    </div>
+    <div class="col-lg-6">
+      <img src="photo2.jpg" class="img-fluid rounded shadow" alt="About me image">
+    </div>
+  </div>
+</section>
+
+
+<!-- Products Section -->
+<section id="products" class="container mt-4">
+  <div class="row">
+    <div class="col-lg-12">
+      <h2>My Products</h2>
+      <div class="card-deck">
+        <!-- Example cards  -->
+        <div class="card">
+          <img src="photo6.jpeg" class="card-img-top" alt="Product image">
+          <div class="card-body">
+            <h5 class="card-title">Resin necklaces</h5>
+            <p class="card-text">Real flowers incased in resin.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="photo5.jpeg" class="card-img-top" alt="Product image">
+          <div class="card-body">
+            <h5 class="card-title">Earring made with clay and resin</h5>
+            <p class="card-text">Drop earrings, studs.</p>
+          </div>
+        </div>
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container mt-4">
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>Contact Us</h2>
+      <p>For inquiries or custom orders, please contact via:</p>
+      <ul>
+        <li>Vinted: <a href="https://www.vinted.co.uk/member/58754927-magzie1972"> magzie1972</a></li>
+        <li>Email: info@margaretcrafts.com</li>
+        <li>Phone: +44 (123) 456-7890</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <span>&copy; 2024 Margaret's Crafts.</span>
+  </div>
+</footer>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
